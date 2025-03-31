@@ -1,11 +1,9 @@
 /* Updated Global Styles */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
-
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #b3b3b3; /* 70% grey */
 }
 
 .container {
