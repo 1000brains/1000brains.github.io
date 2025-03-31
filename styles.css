@@ -1,6 +1,8 @@
-/* Global Styles */
+/* Updated Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -12,8 +14,33 @@ body {
     padding: 20px 0;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #333;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    background-color: #333;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #555;
 }
 
 /* Hero Section */
@@ -33,6 +60,11 @@ h1, h2 {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    margin: 5px;
+}
+
+.btn.secondary {
+    background-color: #444;
 }
 
 /* Grid Layout */
@@ -40,6 +72,7 @@ h1, h2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
+    padding: 20px 0;
 }
 
 .card {
@@ -47,18 +80,25 @@ h1, h2 {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-/* Portfolio and Blog Sections */
-#portfolio, #blog {
-    background-color: #fff;
+/* Section Styling */
+.section {
     padding: 40px 0;
+    background-color: #fff;
+}
+
+#portfolio, #blog, #domains, #speaking {
+    background-color: #f9f9f9;
 }
 
 /* Contact Section */
 form {
     display: flex;
     flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 form input, form textarea {
@@ -77,10 +117,15 @@ form button {
     cursor: pointer;
 }
 
+form button:hover {
+    background-color: #555;
+}
+
 /* Footer */
 footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 10px 0;
+    margin-top: 20px;
 }
