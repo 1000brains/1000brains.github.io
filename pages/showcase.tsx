@@ -1,14 +1,10 @@
 import siteMetadata from '@/data/siteMetadata'
-import projectsData from '@/data/projectsData'
-import Card from '@/components/Card'
 import { PageSEO } from '@/components/SEO'
 import Link from 'next/link'
 import HackerEffectText from '@/components/showcase/HackerEffectText'
 import MagicalHoverEffect from '@/components/showcase/MagicalHoverEffect'
-import Head from 'next/head'
 import InfiniteScrollHead from '@/components/showcase/InfiniteScrollHead'
 import SparkleButton from '@/components/showcase/SparkleButton'
-import MorphingText from '@/components/showcase/MorphingText'
 import AuroraText from '@/components/showcase/AuroraText'
 
 export default function Showcase() {
@@ -55,3 +51,6 @@ export default function Showcase() {
     </>
   )
 }
+
+
+

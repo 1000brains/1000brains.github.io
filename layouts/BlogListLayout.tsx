@@ -1,8 +1,8 @@
 import Link from '@/components/Link'
-import Tag from '@/components/Tag'
 import { ComponentProps, useState } from 'react'
 import Pagination from '@/components/Pagination'
-import formatDate from '@/lib/utils/formatDate'
+// import Tag from '@/components/Tag'
+// import formatDate from '@/lib/utils/formatDate'
 import { PostFrontMatter } from 'types/PostFrontMatter'
 
 const gradients = {
@@ -76,7 +76,7 @@ export default function BlogListLayout({
         <ul className="grid grid-cols-1 gap-10 py-8 dark:border-gray-700 md:grid-cols-3">
           {!filteredBlogPosts.length && 'No posts found.'}
           {displayPosts.map((frontMatter, index) => {
-            const { slug, date, title, summary, tags, readTime } = frontMatter
+            const { slug, title } = frontMatter
             return (
               <Link
                 href={`/blog/${slug}`}
@@ -138,3 +138,6 @@ export default function BlogListLayout({
     </>
   )
 }
+
+
+

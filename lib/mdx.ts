@@ -140,3 +140,4 @@ export async function getAllFilesFrontMatter(folder: 'blog' | 'snippets') {
 
   return allFrontMatter.sort((a, b) => dateSortDesc(a.date, b.date))
 }
+

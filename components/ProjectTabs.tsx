@@ -3,19 +3,19 @@ import Image from 'next/image'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
-const gradients = {
-  '0': ' from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]',
-  '1': ' from-[#D8B4FE] to-[#818CF8]',
-  '2': ' to-[#6EE7B7] from-[#6EE7F9]',
-  '3': ' from-pink-500 via-red-500 to-yellow-500',
-  '4': ' from-yellow-100 via-yellow-300 to-yellow-500',
-  '5': ' from-indigo-200 via-red-200 to-yellow-100',
-  '6': ' from-green-200 via-green-400 to-purple-700',
-  '7': ' from-red-200 to-red-600',
-  '8': ' from-green-300 via-yellow-300 to-pink-300',
-  '9': ' from-pink-400 to-pink-600',
-  '10': ' from-sky-400 via-rose-400 to-lime-400',
-}
+// const gradients = {
+//   '0': ' from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]',
+//   '1': ' from-[#D8B4FE] to-[#818CF8]',
+//   '2': ' to-[#6EE7B7] from-[#6EE7F9]',
+//   '3': ' from-pink-500 via-red-500 to-yellow-500',
+//   '4': ' from-yellow-100 via-yellow-300 to-yellow-500',
+//   '5': ' from-indigo-200 via-red-200 to-yellow-100',
+//   '6': ' from-green-200 via-green-400 to-purple-700',
+//   '7': ' from-red-200 to-red-600',
+//   '8': ' from-green-300 via-yellow-300 to-pink-300',
+//   '9': ' from-pink-400 to-pink-600',
+//   '10': ' from-sky-400 via-rose-400 to-lime-400',
+// }
 
 import Container from './Container'
 import projectsData from '@/data/projectsData'
@@ -168,3 +168,4 @@ export default function ProjectTabs() {
     </section>
   )
 }
+

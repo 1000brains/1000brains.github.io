@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useRef } from 'react'
 
 export const AuroraText = () => {
   return (
@@ -18,3 +18,5 @@ export const AuroraText = () => {
 }
 
 export default AuroraText
+
+

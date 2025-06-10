@@ -91,7 +91,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
         <ul className="flex flex-col gap-10 dark:border-gray-700 md:flex-row">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter, index) => {
-            const { slug, date, title, summary, tags, readTime } = frontMatter
+            const { title, readTime } = frontMatter
             return (
               <Link
                 href={`/blog/${slug}`}
@@ -161,3 +161,8 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
     </>
   )
 }
+
+
+
+
+

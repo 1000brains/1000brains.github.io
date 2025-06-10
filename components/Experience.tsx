@@ -1,6 +1,8 @@
 import Link from '@/components/Link'
 
-const Experience = ({ title, company, location, range, url, text1, text2 }) => {
+type ExperienceProps = { title: string; company: string; range: string }
+
+const Experience = ({ title, company, range, url, text1, text2 }) => {
   return (
     <div className="my-3">
       <div className="flex flex-row text-xl">
@@ -46,3 +48,4 @@ const Experience = ({ title, company, location, range, url, text1, text2 }) => {
 }
 
 export default Experience
+

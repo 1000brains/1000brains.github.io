@@ -1,8 +1,7 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import { toString } from 'mdast-util-to-string'
-
-const COLORS = ['#bbf7d0', '#99f6e4', '#bfdbfe', '#ddd6fe', '#f5d0fe', '#fed7aa', '#fee2e2']
+// import ReactDOM from 'react-dom'
+// import { toString } from 'mdast-util-to-string'
+// const COLORS = ['#bbf7d0', '#99f6e4', '#bfdbfe', '#ddd6fe', '#f5d0fe', '#fed7aa', '#fee2e2']
 const TAGS = [
   'HTML',
   'CSS',
@@ -83,3 +82,4 @@ const InfiniteScrollHead = () => (
 )
 
 export default InfiniteScrollHead
+

@@ -1,5 +1,4 @@
 import Link from '@/components/Link'
-import Tag from '@/components/Tag'
 import { ComponentProps, useState } from 'react'
 import Pagination from '@/components/Pagination'
 import formatDate from '@/lib/utils/formatDate'
@@ -61,7 +60,7 @@ export default function SnippetsLayout({
         <div className="dark:border-gray-700">
           {!filteredBlogPosts.length && 'No posts found.'}
           {displayPosts.map((frontMatter, index) => {
-            const { slug, date, title, summary, tags } = frontMatter
+            const { slug, title } = frontMatter
             return (
               <Link href={`/snippets/${slug}`} key={slug}>
                 <a className="w-full" aria-label={title}>
@@ -94,3 +93,4 @@ export default function SnippetsLayout({
     </>
   )
 }
+
