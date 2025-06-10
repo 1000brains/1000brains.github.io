@@ -9,69 +9,71 @@ export const getStaticProps: GetStaticProps = async () => {
 
 const moocs = [
   {
-    title: "Basic 3D Modeling using Blender",
-    platform: "edX / IITBombayX",
-    learners: "25,000+",
-    link: "https://www.edx.org/course/basic-3d-modeling-using-blender",
-    description: "Comprehensive course on 3D modeling fundamentals using open-source Blender software",
-    achievement: "edX Prize 2019 Finalist"
+    title: 'Basic 3D Modeling using Blender',
+    platform: 'edX / IITBombayX',
+    learners: '25,000+',
+    link: 'https://www.edx.org/course/basic-3d-modeling-using-blender',
+    description:
+      'Comprehensive course on 3D modeling fundamentals using open-source Blender software',
+    achievement: 'edX Prize 2019 Finalist',
   },
   {
-    title: "Basic 3D Animation using Blender", 
-    platform: "SWAYAM",
-    learners: "15,000+",
-    link: "https://online-degree.swayam.gov.in/nd1_tqp20_c01_s2_ge01/preview",
-    description: "Advanced course covering 3D animation principles and techniques"
+    title: 'Basic 3D Animation using Blender',
+    platform: 'SWAYAM',
+    learners: '15,000+',
+    link: 'https://online-degree.swayam.gov.in/nd1_tqp20_c01_s2_ge01/preview',
+    description: 'Advanced course covering 3D animation principles and techniques',
   },
   {
-    title: "Visual Design for Education",
-    platform: "IITBombayX",
-    learners: "10,000+",
-    link: "https://iitbombayx.in/courses/basic-3d-modeling-using-blender",
-    description: "Course on applying visual design principles in educational content creation"
-  }
+    title: 'Visual Design for Education',
+    platform: 'IITBombayX',
+    learners: '10,000+',
+    link: 'https://iitbombayx.in/courses/basic-3d-modeling-using-blender',
+    description: 'Course on applying visual design principles in educational content creation',
+  },
 ]
 
 const workshops = [
   {
-    title: "Active Learning Pedagogy in Classrooms",
-    description: "Workshop on implementing active learning strategies in traditional classroom settings",
-    audience: "Faculty and Educators",
-    duration: "2 days"
+    title: 'Active Learning Pedagogy in Classrooms',
+    description:
+      'Workshop on implementing active learning strategies in traditional classroom settings',
+    audience: 'Faculty and Educators',
+    duration: '2 days',
   },
   {
-    title: "ICT Tools for Active Learning",
-    description: "Hands-on training on using technology tools to enhance student engagement",
-    audience: "Teachers and Trainers", 
-    duration: "1 day"
+    title: 'ICT Tools for Active Learning',
+    description: 'Hands-on training on using technology tools to enhance student engagement',
+    audience: 'Teachers and Trainers',
+    duration: '1 day',
   },
   {
-    title: "Blender for Educators",
-    description: "Training educators to use Blender for creating educational 3D content",
-    audience: "STEM Educators",
-    duration: "3 days"
-  }
+    title: 'Blender for Educators',
+    description: 'Training educators to use Blender for creating educational 3D content',
+    audience: 'STEM Educators',
+    duration: '3 days',
+  },
 ]
 
 const talks = [
   {
-    title: "Visual Design and Films in Education",
-    event: "International Conference on Educational Technology",
-    year: "2023",
-    description: "Keynote on the role of visual storytelling in modern education"
+    title: 'Visual Design and Films in Education',
+    event: 'International Conference on Educational Technology',
+    year: '2023',
+    description: 'Keynote on the role of visual storytelling in modern education',
   },
   {
-    title: "The Future of MOOCs",
-    event: "EdTech Summit India",
-    year: "2022", 
-    description: "Panel discussion on emerging trends in online education"
+    title: 'The Future of MOOCs',
+    event: 'EdTech Summit India',
+    year: '2022',
+    description: 'Panel discussion on emerging trends in online education',
   },
   {
-    title: "3D Animation in Learning Environments",
-    event: "IEEE Conference on Learning Technologies",
-    year: "2021",
-    description: "Research presentation on effectiveness of 3D visualization in education"
-  }
+    title: '3D Animation in Learning Environments',
+    event: 'IEEE Conference on Learning Technologies',
+    year: '2021',
+    description: 'Research presentation on effectiveness of 3D visualization in education',
+  },
 ]
 
 export default function Teaching({}: InferGetStaticPropsType<typeof getStaticProps>) {
@@ -93,47 +95,52 @@ export default function Teaching({}: InferGetStaticPropsType<typeof getStaticPro
 
         {/* Teaching Philosophy */}
         <div className="py-8">
-          <h2 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100 mb-6">
+          <h2 className="mb-6 text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
             Teaching Philosophy
           </h2>
-          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900 dark:to-indigo-900 p-8 rounded-lg">
-            <blockquote className="text-lg italic text-gray-700 dark:text-gray-300 mb-4">
-              "Education should be as engaging as entertainment. My goal is to bridge the gap between 
-              learning and enjoyment through visual storytelling, interactive design, and active learning methodologies."
+          <div className="rounded-lg bg-gradient-to-r from-blue-50 to-indigo-50 p-8 dark:from-blue-900 dark:to-indigo-900">
+            <blockquote className="mb-4 text-lg italic text-gray-700 dark:text-gray-300">
+              "Education should be as engaging as entertainment. My goal is to bridge the gap
+              between learning and enjoyment through visual storytelling, interactive design, and
+              active learning methodologies."
             </blockquote>
             <p className="text-gray-600 dark:text-gray-400">
-              With over 25 years of experience in visual design and educational technology, I believe in 
-              creating learning experiences that are not just informative but transformative.
+              With over 25 years of experience in visual design and educational technology, I
+              believe in creating learning experiences that are not just informative but
+              transformative.
             </p>
           </div>
         </div>
 
         {/* MOOCs */}
         <div className="py-8">
-          <h2 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100 mb-6">
+          <h2 className="mb-6 text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
             Massive Open Online Courses (MOOCs)
           </h2>
           <div className="space-y-6">
             {moocs.map((mooc, index) => (
-              <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md border-l-4 border-primary-500">
-                <div className="flex justify-between items-start mb-3">
+              <div
+                key={index}
+                className="rounded-lg border-l-4 border-primary-500 bg-white p-6 shadow-md dark:bg-gray-800"
+              >
+                <div className="mb-3 flex items-start justify-between">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
                     <Link href={mooc.link} className="hover:text-primary-500">
                       {mooc.title}
                     </Link>
                   </h3>
                   {mooc.achievement && (
-                    <span className="bg-yellow-100 text-yellow-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-yellow-900 dark:text-yellow-300">
+                    <span className="rounded bg-yellow-100 px-2.5 py-0.5 text-xs font-medium text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300">
                       {mooc.achievement}
                     </span>
                   )}
                 </div>
-                <p className="text-gray-600 dark:text-gray-400 mb-3">{mooc.description}</p>
+                <p className="mb-3 text-gray-600 dark:text-gray-400">{mooc.description}</p>
                 <div className="flex flex-wrap gap-4 text-sm">
-                  <span className="text-primary-600 dark:text-primary-400 font-medium">
+                  <span className="font-medium text-primary-600 dark:text-primary-400">
                     📚 {mooc.platform}
                   </span>
-                  <span className="text-green-600 dark:text-green-400 font-medium">
+                  <span className="font-medium text-green-600 dark:text-green-400">
                     👥 {mooc.learners} learners
                   </span>
                 </div>
@@ -144,12 +151,12 @@ export default function Teaching({}: InferGetStaticPropsType<typeof getStaticPro
 
         {/* Active Learning */}
         <div className="py-8">
-          <h2 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100 mb-6">
+          <h2 className="mb-6 text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
             Active Learning Initiatives
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+            <div className="rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
+              <h3 className="mb-3 text-lg font-semibold text-gray-900 dark:text-gray-100">
                 Classroom Innovation
               </h3>
               <ul className="space-y-2 text-gray-600 dark:text-gray-400">
@@ -159,8 +166,8 @@ export default function Teaching({}: InferGetStaticPropsType<typeof getStaticPro
                 <li>• Peer-to-peer learning sessions</li>
               </ul>
             </div>
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3">
+            <div className="rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
+              <h3 className="mb-3 text-lg font-semibold text-gray-900 dark:text-gray-100">
                 Technology Integration
               </h3>
               <ul className="space-y-2 text-gray-600 dark:text-gray-400">
@@ -175,19 +182,23 @@ export default function Teaching({}: InferGetStaticPropsType<typeof getStaticPro
 
         {/* Workshops */}
         <div className="py-8">
-          <h2 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100 mb-6">
+          <h2 className="mb-6 text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
             Workshops & Training
           </h2>
           <div className="space-y-4">
             {workshops.map((workshop, index) => (
-              <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">
+              <div key={index} className="rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
+                <h3 className="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-100">
                   {workshop.title}
                 </h3>
-                <p className="text-gray-600 dark:text-gray-400 mb-3">{workshop.description}</p>
+                <p className="mb-3 text-gray-600 dark:text-gray-400">{workshop.description}</p>
                 <div className="flex gap-4 text-sm text-gray-500 dark:text-gray-500">
-                  <span><strong>Audience:</strong> {workshop.audience}</span>
-                  <span><strong>Duration:</strong> {workshop.duration}</span>
+                  <span>
+                    <strong>Audience:</strong> {workshop.audience}
+                  </span>
+                  <span>
+                    <strong>Duration:</strong> {workshop.duration}
+                  </span>
                 </div>
               </div>
             ))}
@@ -196,19 +207,21 @@ export default function Teaching({}: InferGetStaticPropsType<typeof getStaticPro
 
         {/* Talks & Presentations */}
         <div className="py-8">
-          <h2 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100 mb-6">
+          <h2 className="mb-6 text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
             Talks & Presentations
           </h2>
           <div className="space-y-4">
             {talks.map((talk, index) => (
-              <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-                <div className="flex justify-between items-start mb-2">
+              <div key={index} className="rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
+                <div className="mb-2 flex items-start justify-between">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
                     {talk.title}
                   </h3>
                   <span className="text-sm text-gray-500 dark:text-gray-500">{talk.year}</span>
                 </div>
-                <p className="text-primary-600 dark:text-primary-400 font-medium mb-2">{talk.event}</p>
+                <p className="mb-2 font-medium text-primary-600 dark:text-primary-400">
+                  {talk.event}
+                </p>
                 <p className="text-gray-600 dark:text-gray-400">{talk.description}</p>
               </div>
             ))}
@@ -217,21 +230,23 @@ export default function Teaching({}: InferGetStaticPropsType<typeof getStaticPro
 
         {/* Consultancy */}
         <div className="py-8">
-          <h2 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100 mb-6">
+          <h2 className="mb-6 text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
             Consultancy & Advisory
           </h2>
-          <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3">
+          <div className="rounded-lg bg-white p-6 shadow-md dark:bg-gray-800">
+            <h3 className="mb-3 text-lg font-semibold text-gray-900 dark:text-gray-100">
               MOOC Creation & Educational Technology
             </h3>
-            <p className="text-gray-600 dark:text-gray-400 mb-4">
-              Providing consultancy services for institutions and organizations looking to create 
+            <p className="mb-4 text-gray-600 dark:text-gray-400">
+              Providing consultancy services for institutions and organizations looking to create
               engaging online courses and implement educational technology solutions.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
               <div>
-                <h4 className="font-medium text-gray-900 dark:text-gray-100 mb-2">Services Offered:</h4>
-                <ul className="text-sm text-gray-600 dark:text-gray-400 space-y-1">
+                <h4 className="mb-2 font-medium text-gray-900 dark:text-gray-100">
+                  Services Offered:
+                </h4>
+                <ul className="space-y-1 text-sm text-gray-600 dark:text-gray-400">
                   <li>• MOOC design and development</li>
                   <li>• Educational content strategy</li>
                   <li>• Faculty training programs</li>
@@ -239,8 +254,10 @@ export default function Teaching({}: InferGetStaticPropsType<typeof getStaticPro
                 </ul>
               </div>
               <div>
-                <h4 className="font-medium text-gray-900 dark:text-gray-100 mb-2">Expertise Areas:</h4>
-                <ul className="text-sm text-gray-600 dark:text-gray-400 space-y-1">
+                <h4 className="mb-2 font-medium text-gray-900 dark:text-gray-100">
+                  Expertise Areas:
+                </h4>
+                <ul className="space-y-1 text-sm text-gray-600 dark:text-gray-400">
                   <li>• Visual design for education</li>
                   <li>• 3D animation and modeling</li>
                   <li>• Active learning methodologies</li>

@@ -46,11 +46,11 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
               Sahasrabudhe
             </h1>
             <p className="text-black dark:text-white sm:pr-6 sm:text-lg sm:leading-8">
-              Welcome to my Digital Portfolio – I am a Professor of Practice in Design at IIT Gandhinagar,
-              specializing in Visual Design, 3D Animation, and Educational Technology. With over 25 years of
-              experience in advertising, animation, and educational multimedia, I create engaging learning
-              experiences that bridge the gap between education and entertainment.{' '}
-              <span className="waving-hand text-2xl">🎨</span>
+              Welcome to my Digital Portfolio – I am a Professor of Practice in Design at IIT
+              Gandhinagar, specializing in Visual Design, 3D Animation, and Educational Technology.
+              With over 25 years of experience in advertising, animation, and educational
+              multimedia, I create engaging learning experiences that bridge the gap between
+              education and entertainment. <span className="waving-hand text-2xl">🎨</span>
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <span className="rounded-full bg-primary-100 px-3 py-1 text-sm font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-200">

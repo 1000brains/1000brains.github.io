@@ -14,10 +14,12 @@ export default function Projects() {
             Creative Projects
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            A showcase of my creative work spanning filmmaking, visual design, animation, and multimedia projects.
+            A showcase of my creative work spanning filmmaking, visual design, animation, and
+            multimedia projects.
           </p>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Explore my journey as a visual storyteller and creative technologist, where art meets education.{' '}
+            Explore my journey as a visual storyteller and creative technologist, where art meets
+            education.{' '}
             <Link href="https://www.youtube.com/@sameersahasrabudhe7592/videos" passHref>
               <span className="company font-bold text-primary-500 hover:cursor-pointer">
                 YouTube Channel

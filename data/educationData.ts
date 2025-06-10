@@ -5,9 +5,10 @@ const educationData = [
     location: 'Nashik, India',
     range: '2010 - 2016',
     url: 'https://ycmou.ac.in/',
-    text1: 'Doctoral research on visual communication issues in educational content creation processes',
+    text1:
+      'Doctoral research on visual communication issues in educational content creation processes',
     text2:
-      'Conducted interdisciplinary research under the guidance of Prof. Sridhar Iyer and Prof. Sahana Murthy from IIT Bombay\'s Educational Technology program.',
+      "Conducted interdisciplinary research under the guidance of Prof. Sridhar Iyer and Prof. Sahana Murthy from IIT Bombay's Educational Technology program.",
     text3:
       'Developed frameworks for improving communication between instructional designers and animators in educational content production.',
   },
