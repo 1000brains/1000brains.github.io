@@ -3,7 +3,7 @@ import siteMetadata from '@/data/siteMetadata'
 import { GetStaticProps, InferGetStaticPropsType } from 'next'
 import Link from '@/components/Link'
 
-export const getStaticProps: GetStaticProps = async () => {
+export async function getStaticProps() {
   return { props: {} }
 }
 
@@ -271,3 +271,4 @@ export default function Teaching({}: InferGetStaticPropsType<typeof getStaticPro
     </>
   )
 }
+
