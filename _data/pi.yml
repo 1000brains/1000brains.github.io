@@ -1,0 +1,18 @@
+- name: Dr. Sameer S Sahasrabudhe
+  photo: sameer.jpg
+  info: Sameer S Sahasrabudhe, Professor, IIT Gandhinagar
+  email: sameesss@iitgn.ac.in
+  office: Block 5, Room 123, IIT Gandhinagar
+  github: https://github.com/sameesss
+  researchgate: https://www.researchgate.net/profile/Sameer_S_Sahasrabudhe
+  scholar: https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID
+  # cv: cv/sameer_cv.pdf
+  interests: Educational Technology, MOOCs, Animation in Education, Learning Analytics, Instructional Design
+  education:
+    [
+      "(2012) Ph.D. Educational Technology, IIT Bombay",
+      "(2004) M.Des. Visual Communication, IDC, IIT Bombay",
+      "(2001) B.E. Production Engineering, Nagpur University"
+    ]
+  educationshort:
+    ["(2012) Ph.D. EdTech, IITB", "(2004) M.Des. IDC, IITB", "(2001) B.E. Prod. Engg, Nagpur"]
